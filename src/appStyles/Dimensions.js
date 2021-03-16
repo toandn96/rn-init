@@ -36,8 +36,8 @@ export const fontScale = size => {
 };
 
 export const MARGIN = 23;
-export const MARGIN_hScale = hScale(MARGIN);
-export const MARGIN_wScale = wScale(MARGIN);
+export const MARGIN_HSCALE = hScale(MARGIN);
+export const MARGIN_WSCALE = wScale(MARGIN);
 
 export const BORDER_RADIUS = 10;
 export const BUTTON_HEIGHT = hScale(50, 0.95);

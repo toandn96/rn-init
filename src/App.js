@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import 'react-native-gesture-handler';
 import React from 'react';
 import {
@@ -26,6 +18,12 @@ import store, {persistor} from '@moneymoon/stores';
 enableScreens();
 MaterialCommunityIcons.loadFont();
 
+const styles = StyleSheet.create({
+  safeAreaView: {
+    flex: 1,
+  },
+});
+
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -45,22 +43,4 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  safeAreaView: {
-    flex: 1,
-  },
-});
-
 export default App;
-
-global.devLog = (tag, message) => {
-  console.log('tag:', tag);
-  console.log('message:', message);
-  if (__DEV__) {
-    if (!message) {
-      console.log(tag);
-    } else {
-      console.log(tag, message);
-    }
-  }
-};

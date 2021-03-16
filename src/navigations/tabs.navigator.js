@@ -9,6 +9,7 @@ import {
   OtherScreen,
 } from '@moneymoon/screens';
 import {BOTTOM_TABS_ROUTES} from '@moneymoon/appConstants';
+
 SimpleLineIcons.loadFont();
 
 const BottomTab = createBottomTabNavigator();

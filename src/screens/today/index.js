@@ -13,6 +13,24 @@ const SPENDING = [
   {id: 7, code: 'ANUONG', name: 'Ăn uống', total: 200000},
 ];
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F0EFF7',
+  },
+  content: {
+    flex: 1,
+  },
+  spendingItem: {
+    backgroundColor: '#fff',
+  },
+  itemRight: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+  },
+});
+
 export function TodayScreen() {
   return (
     <View style={styles.container}>
@@ -21,7 +39,7 @@ export function TodayScreen() {
         <FlatList
           data={SPENDING}
           keyExtractor={item => item.id}
-          renderItem={({item, index}) => {
+          renderItem={({item}) => {
             return (
               <List.Item
                 style={styles.spendingItem}
@@ -42,21 +60,3 @@ export function TodayScreen() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F0EFF7',
-  },
-  content: {
-    flex: 1,
-  },
-  spendingItem: {
-    backgroundColor: '#fff',
-  },
-  itemRight: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'flex-end',
-  },
-});

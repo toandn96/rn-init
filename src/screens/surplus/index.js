@@ -2,17 +2,6 @@ import * as React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import {Header} from '../../components';
 
-export function SurplusScreen() {
-  return (
-    <View style={styles.container}>
-      <Header title="To day" />
-      <View style={styles.content}>
-        <Text>SurplusScreen</Text>
-      </View>
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -24,3 +13,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
+
+export function SurplusScreen() {
+  return (
+    <View style={styles.container}>
+      <Header title="To day" />
+      <View style={styles.content}>
+        <Text>SurplusScreen</Text>
+      </View>
+    </View>
+  );
+}

@@ -1,16 +1,6 @@
 import * as React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
-import {Appbar, TextInput} from 'react-native-paper';
-
-export function Header({title}) {
-  return (
-    <Appbar.Header style={styles.header}>
-      <Appbar.Action />
-      <Appbar.Content title={title} titleStyle={styles.titleStyle} />
-      <Appbar.Action />
-    </Appbar.Header>
-  );
-}
+import {StyleSheet} from 'react-native';
+import {Appbar} from 'react-native-paper';
 
 const styles = StyleSheet.create({
   header: {
@@ -21,3 +11,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
+export function Header({title}) {
+  return (
+    <Appbar.Header style={styles.header}>
+      <Appbar.Action />
+      <Appbar.Content title={title} titleStyle={styles.titleStyle} />
+      <Appbar.Action />
+    </Appbar.Header>
+  );
+}

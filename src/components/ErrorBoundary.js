@@ -3,16 +3,18 @@ import PropTypes from 'prop-types';
 
 export class ErrorBoundary extends React.Component {
   componentDidCatch(error, errorInfo) {
-    if (this.props.onError) {
-      this.props.onError(error, errorInfo.componentStack);
+    const {onError} = this.props;
+    if (onError) {
+      onError(error, errorInfo.componentStack);
     }
   }
 
   render() {
-    return this.props.children;
+    const {children} = this.props;
+    return children;
   }
 }
 
 ErrorBoundary.propTypes = {
-  onError: PropTypes.func,
+  onError: PropTypes.func.isRequired,
 };
