@@ -7,8 +7,8 @@ import {
   BudgetScreen,
   ReportScreen,
   OtherScreen,
-} from '../screens';
-import {BOTTOM_TABS_ROUTES} from '../appConstants';
+} from '@moneymoon/screens';
+import {BOTTOM_TABS_ROUTES} from '@moneymoon/appConstants';
 SimpleLineIcons.loadFont();
 
 const BottomTab = createBottomTabNavigator();

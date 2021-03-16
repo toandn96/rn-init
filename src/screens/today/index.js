@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Text, View, StyleSheet, FlatList} from 'react-native';
 import {List} from 'react-native-paper';
-import {Header} from '../../components';
+import {Header} from '@moneymoon/components';
 
 const SPENDING = [
   {id: 1, code: 'ANUONG', name: 'Ăn uống', total: 200000},

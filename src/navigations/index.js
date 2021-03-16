@@ -1,7 +1,8 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
+import {NAVIGATION_ROUTES} from '@moneymoon/appConstants';
+
 import RootNavigator from './root.navigator';
-import {NAVIGATION_ROUTES} from '../appConstants/routes';
 
 const AppContainer = () => {
   return (
