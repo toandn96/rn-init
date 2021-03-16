@@ -8,14 +8,17 @@ module.exports = {
         root: ['./src'],
         extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
         alias: {
-          '@moneymoon/*': 'src/*',
+          '@components': 'src/components',
+          '@screens': 'src/screens',
+          '@stores': 'src/stores',
+          '@utils': 'src/utils',
+          '@services': 'src/services',
+          '@navigations': 'src/navigations',
+          '@assets': 'src/assets',
+          '@appStyles': 'src/appStyles',
+          '@appConstants': 'src/appConstants',
         },
       },
     ],
   ],
-  env: {
-    production: {
-      plugins: ['transform-remove-console'],
-    },
-  },
 };

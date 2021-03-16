@@ -12,7 +12,15 @@
     "target": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@moneymoon/*": ["src/*"]
+      "@components": ["src/components"],
+      "@screens": ["src/screens"],
+      "@stores": ["src/stores"],
+      "@utils": ["src/utils"],
+      "@services": ["src/services"],
+      "@navigations": ["src/navigations"],
+      "@assets": ["src/assets"],
+      "@appStyles": ["src/appStyles"],
+      "@appConstants": ["src/appConstants"]
     }
   },
   "exclude": [
