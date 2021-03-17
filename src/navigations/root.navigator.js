@@ -5,7 +5,7 @@ import {
   createStackNavigator,
 } from '@react-navigation/stack';
 import React from 'react';
-import {NAVIGATION_ROUTES} from '@moneymoon/appConstants';
+import {NAVIGATION_ROUTES} from '../appConstants';
 import BottomTabNavigator from './tabs.navigator';
 
 const Stack = createStackNavigator();

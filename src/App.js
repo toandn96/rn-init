@@ -12,10 +12,8 @@ import {Provider as PaperProvider} from 'react-native-paper';
 import {PersistGate} from 'redux-persist/integration/react';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import store, {persistor} from '@stores';
-import {AppContainer} from '@appConstants';
-
-console.log('AppContainer;', AppContainer);
+import store, {persistor} from './stores';
+import {AppContainer} from './navigations';
 
 enableScreens();
 MaterialCommunityIcons.loadFont();

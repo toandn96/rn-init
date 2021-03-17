@@ -19,7 +19,7 @@ export function BudgetScreen() {
     <View style={styles.container}>
       <Header title="To day" />
       <View style={styles.content}>
-        <Text>BudgetScreen</Text>
+        <Text>BudgetScreen222</Text>
       </View>
     </View>
   );

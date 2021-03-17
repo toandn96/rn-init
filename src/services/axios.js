@@ -1,6 +1,6 @@
 import axios from 'axios';
-import {CONFIGS} from '@moneymoon/appConstants';
-import store from '@moneymoon/stores';
+import {CONFIGS} from 'appConstants';
+import store from 'stores';
 
 const defaultOptions = {
   baseURL: CONFIGS.API_URL,

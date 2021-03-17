@@ -7,8 +7,8 @@ import {
   BudgetScreen,
   ReportScreen,
   OtherScreen,
-} from '@moneymoon/screens';
-import {BOTTOM_TABS_ROUTES} from '@moneymoon/appConstants';
+} from '../screens';
+import {BOTTOM_TABS_ROUTES} from '../appConstants';
 
 SimpleLineIcons.loadFont();
 
