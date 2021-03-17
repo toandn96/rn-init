@@ -1,14 +1,14 @@
 import * as React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
-import {BOTTOM_TABS_ROUTES} from '@moneymoon/appConstants';
+import {BOTTOM_TABS_ROUTES} from '@appConstants';
 import {
   TodayScreen,
   SurplusScreen,
   BudgetScreen,
   ReportScreen,
   OtherScreen,
-} from '@moneymoon/screens';
+} from '@screens';
 
 SimpleLineIcons.loadFont();
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {NAVIGATION_ROUTES} from '@moneymoon/appConstants';
+import {NAVIGATION_ROUTES} from '@appConstants';
 
 import RootNavigator from './root.navigator';
 

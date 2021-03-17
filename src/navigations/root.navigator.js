@@ -4,7 +4,7 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import {NAVIGATION_ROUTES} from '@moneymoon/appConstants';
+import {NAVIGATION_ROUTES} from '@appConstants';
 
 import BottomTabNavigator from './tabs.navigator';
 
