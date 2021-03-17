@@ -1,11 +1,11 @@
 /** @format */
-
+import React from 'react';
 import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import React from 'react';
-import {NAVIGATION_ROUTES} from '../appConstants';
+import {NAVIGATION_ROUTES} from '@moneymoon/appConstants';
+
 import BottomTabNavigator from './tabs.navigator';
 
 const Stack = createStackNavigator();

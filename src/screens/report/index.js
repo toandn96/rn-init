@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
-import {Header} from '../../components';
+import {Header} from '@moneymoon/components';
 
 const styles = StyleSheet.create({
   container: {

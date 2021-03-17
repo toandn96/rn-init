@@ -1,14 +1,7 @@
 import * as React from 'react';
 import {Text, View, StyleSheet, FlatList} from 'react-native';
 import {List} from 'react-native-paper';
-import {CONFIGS} from 'appConstants/index';
-import {AppColors, AppFonts} from 'appStyles';
-import {Header} from '../../components';
-
-console.log('CONFIGS;', CONFIGS);
-console.log('AppColors;', AppColors);
-console.log('AppFonts;', AppFonts);
-console.log('Header;', AppFonts);
+import {Header} from '@moneymoon/components';
 
 const SPENDING = [
   {id: 1, code: 'ANUONG', name: 'Ăn uống', total: 200000},
